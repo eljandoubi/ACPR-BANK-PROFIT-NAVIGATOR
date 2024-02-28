@@ -4,7 +4,7 @@ from backend import exctracter
 
 # Titre de l'application
 st.title("Bank Profit Navigator")
-st.write("Extraction of crucial financial metrics from financial reports.")
+st.write("Extraction de mesures financières cruciales à partir de rapports financiers.")
 
 num_banques = st.number_input("Nombre de banques", min_value=1, step=1)
 
