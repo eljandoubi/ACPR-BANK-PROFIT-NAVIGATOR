@@ -14,7 +14,7 @@ banques_info = {
 
 for i in range(num_banques):
     st.sidebar.header(f"Banque {i + 1}")
-    nom_banque = st.sidebar.text_input(f"Nom de la banque {i + 1}")
+    nom_banque = st.sidebar.text_input(f"Nom de la banque {i + 1}",value="JP Morgan Chase")
     trimestre = st.sidebar.number_input(f"Trimestre {i + 1}", min_value=1, max_value=4, step=1)
     annee = st.sidebar.number_input(f"Année {i + 1}", min_value=1900, max_value=2100, step=1, value=2023)
     
