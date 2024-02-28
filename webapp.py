@@ -3,7 +3,7 @@ import pandas as pd
 from backend import exctracter
 
 # Titre de l'application
-st.title("Bank Profit Navigator")
+st.title("ACPR : Bank Profit Navigator")
 
 num_banques = st.number_input("Nombre de banques", min_value=1, step=1)
 
