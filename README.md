@@ -28,3 +28,4 @@ To run it type
 ```bash
 streamlit run webapp.py
 ```
+![diagram](acpr_diagram.png)
