@@ -17,7 +17,7 @@ SearchKey=your_key
 SearchIndex=your_index
 ```
 
-To install depencencies
+To install dependencies
 
 ```bash
 pip install -U -r requirements.txt
